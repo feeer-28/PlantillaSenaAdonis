@@ -9,6 +9,36 @@ DB_PORT=3306
 DB_USER=root
 DB_PASSWORD=1234
 DB_DATABASE=mydb
+
+npm install @adonisjs/lucid
+Luego ejecuta el asistente para configurarlo:
+
+bash
+Copiar código
+node ace configure @adonisjs/lucid
+
+npm init adonisjs@latest backend
+Durante la instalación:
+
+Elige la plantilla: API Server
+
+Luego entra al proyecto:
+
+bash
+Copiar código
+cd backend
+Instala dependencias:
+
+bash
+Copiar código
+npm install
+Y ahora sí, instala y configura Lucid:
+
+bash
+Copiar código
+npm i @adonisjs/lucid
+node ace configure @adonisjs/lucid
+
 Auth
 POST /auth/register
 json
