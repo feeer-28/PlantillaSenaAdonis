@@ -1,3 +1,14 @@
+TZ=UTC
+PORT=3333
+HOST=localhost
+LOG_LEVEL=info
+APP_KEY=Z7cCG6SGrXTGa6wvikEeKsN8rKTPMx8-
+NODE_ENV=development
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_USER=root
+DB_PASSWORD=1234
+DB_DATABASE=mydb
 Auth
 POST /auth/register
 json
